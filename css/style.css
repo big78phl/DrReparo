@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans & display = swap'); 
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box; /*tira o padding da propria div ao inves de acrescentar*/
+    font-family: 'Open Sans', sans-serif;
+}
+#menu-h ul{
+    list-style: none;
+    padding:0;
+    background-color:rgb(37, 37, 39);
+    
+}
+#menu-h ul li {
+    display:inline;/*para deixar a li um do lado do outro*/
+    
+}
+#menu-h ul li a{
+    
+    color:white;
+    padding:30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .25s ;
+    
+    
+}
+#menu-h ul li a:hover{
+    background-color: rgb(24,139,233);
+    
+    
+}
+ul{
+    text-align: center;
+}
+@media screen and (max-width: 300px){
+    #menu-h ul{
+
+     background-color:black;
+    }
+}
